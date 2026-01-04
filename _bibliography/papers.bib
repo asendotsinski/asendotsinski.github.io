@@ -1,115 +1,30 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{thakur2025clare,
+  title={CLaRE: CLIP with Latent Reconstruction Errors for Generated Face Detection},
+  author={Thakur, Udit and Khan, Mohammad Hafeez and Changlani, Meher and Dotsinski, Asen and Mahadevan, Aswin Krishna and Kechagias, Ioannis and Najdenkoska, Ivona},
+  abstract={As generative models rapidly advance, detecting high-quality deepfakes becomes increasingly challenging, with existing methods struggling against modern diffusion-based generators. In this paper, we propose CLaRE, a deepfake detection framework that enhances CLIP by integrating Reconstruction Error (LaRE) through a novel cross-attention mechanism and Conditional Context Optimization (CoCoOp). Our key insight is that reconstruction errors from diffusion models provide discriminative signals that complement CLIP's semantic features, enabling better detection of subtle artifacts in synthetic content. To evaluate CLaRE, we conduct a comprehensive study on the DF40 deepfake dataset, training and testing four variations of our architecture using different training sizes (41k-410k samples). CLaRE achieves 78.3% mean accuracy - +1.5% over prompt-tuning baselines and competitive with recent SOTA - with notable gains on challenging datasets (+9.6% on MidJourney, +6.3% on StarGANv2). Crucially, our cross-attention fusion outperforms error-guided alternatives by +3.1-8.0% in cross-paradigm generalization while maintaining training stability at scale. Further, CLaRE retains strong performance on GAN-based content (75.4% on StyleCLIP), mitigating concerns about diffusion-centric design.},
+  doi={https://dl.acm.org/doi/10.1145/3733813.3764366},
+  code={https://github.com/2t2c/CLaRE},
+  poster={clare_poster.pdf},
+  preview={clare_preview.png},
+  booktitle={Proceedings of the 1st ACM Workshop on Deepfake, Deception, and Disinformation Security},
+  pages={5--15},
+  year={2025}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
+@article{dotsinskigeneralizability,
   selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  title={On the Generalizability of "Competition of Mechanisms: Tracing How Language Models Handle Facts and Counterfactuals"},
+  author={Dotsinski, Asen and Thakur, Udit and Ivanov, Marko and Khan, Mohammad Hafeez and Heuss, Maria},
+  abstract={We present a reproduction study of "Competition of Mechanisms: Tracing How Language Models Handle Facts and Counterfactuals" (Ortu et al., 2024), which investigates competition of mechanisms in language models between factual recall and counterfactual in-context repetition. Our study successfully reproduces their primary findings regarding the localization of factual and counterfactual information, the dominance of attention blocks in mechanism competition, and the specialization of attention heads in handling competing information. We reproduce their results on both GPT-2 (Radford et al., 2019) and Pythia 6.9B (Biderman et al., 2023). We extend their work in three significant directions. First, we explore the generalizability of these findings to even larger models by replicating the experiments on Llama 3.1 8B (Grattafiori et al., 2024), discovering greatly reduced attention head specialization. Second, we investigate the impact of prompt structure by introducing variations where we avoid repeating the counterfactual statement verbatim or we change the premise word, observing a marked decrease in the logit for the counterfactual token. Finally, we test the validity of the authors' claims for prompts of specific domains, discovering that certain categories of prompts skew the results by providing the factual prediction token as part of the subject of the sentence. Overall, we find that the attention head ablation proposed in Ortu et al. (2024) is ineffective for domains that are underrepresented in their dataset, and that the effectiveness varies based on model architecture, prompt structure, domain and task.},
+  doi={https://doi.org/10.48550/arXiv.2506.22977},
+  code={https://github.com/asendotsinski/comp-mech-generalizability},
+  website={https://comp-mech-generalizability.streamlit.app/},
+  journal={Transactions on Machine Learning Research},
+  video={https://www.youtube.com/watch?v=GSY_q2cgWs0},
+  poster={comp_mech_poster.pdf},
+  preview={comp_mech_preview.png},
+  year={2025}
 }
