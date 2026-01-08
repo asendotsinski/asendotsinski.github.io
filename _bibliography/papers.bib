@@ -5,7 +5,7 @@
   title={CLaRE: CLIP with Latent Reconstruction Errors for Generated Face Detection},
   author={Thakur, Udit and Khan, Mohammad Hafeez and Changlani, Meher and Dotsinski, Asen and Mahadevan, Aswin Krishna and Kechagias, Ioannis and Najdenkoska, Ivona},
   abstract={As generative models rapidly advance, detecting high-quality deepfakes becomes increasingly challenging, with existing methods struggling against modern diffusion-based generators. In this paper, we propose CLaRE, a deepfake detection framework that enhances CLIP by integrating Reconstruction Error (LaRE) through a novel cross-attention mechanism and Conditional Context Optimization (CoCoOp). Our key insight is that reconstruction errors from diffusion models provide discriminative signals that complement CLIP's semantic features, enabling better detection of subtle artifacts in synthetic content. To evaluate CLaRE, we conduct a comprehensive study on the DF40 deepfake dataset, training and testing four variations of our architecture using different training sizes (41k-410k samples). CLaRE achieves 78.3% mean accuracy - +1.5% over prompt-tuning baselines and competitive with recent SOTA - with notable gains on challenging datasets (+9.6% on MidJourney, +6.3% on StarGANv2). Crucially, our cross-attention fusion outperforms error-guided alternatives by +3.1-8.0% in cross-paradigm generalization while maintaining training stability at scale. Further, CLaRE retains strong performance on GAN-based content (75.4% on StyleCLIP), mitigating concerns about diffusion-centric design.},
-  doi={https://dl.acm.org/doi/10.1145/3733813.3764366},
+  doi={10.1145/3733813.3764366},
   code={https://github.com/2t2c/CLaRE},
   poster={clare_poster.pdf},
   preview={clare_preview.png},
