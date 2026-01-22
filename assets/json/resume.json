@@ -6,7 +6,7 @@
     "email": "asendotsinski@protonmail.com",
     "phone": "+359888870770",
     "url": "",
-    "summary": "I am a quick learner, ambitious to a fault and I never back down from a challenge. I am looking to use my AI research talent for the good of humanity. I am currently interested in the mechanisms behind LLM prompt attacks and counteracting them to safeguard (open-weight) AI against malicious use.",
+    "summary": "I am a quick learner, ambitious to a fault and I never back down from a challenge. I am looking to use my AI research talent for the good of humanity. I am currently interested in the mechanisms behind LLM jailbreaking and counteracting them to safeguard (open-weight) AI against malicious use.",
     "location": {
       "city": "Sofia",
       "countryCode": "BG",
@@ -28,6 +28,13 @@
       "releaseDate": "2025",
       "url": "https://dl.acm.org/doi/abs/10.1145/3733813.3764366",
       "summary": "Research on deepfake detection using CLIP-based methods (co-author)."
+    },
+    {
+      "name": "Sockpuppetting: Jailbreaking LLMs Without Optimization Through Output Prefix Injection",
+      "publisher": "arXiv preprint",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2601.13359",
+      "summary": "A jailbreaking method achieving up to 97% success rate with one line of code (main author)."
     }
   ],
     "education": [
@@ -40,7 +47,8 @@
       "endDate": "2026",
       "score": "8.9/10",
       "courses": [
-        "GPA 8.9/10"
+        "GPA 8.9/10",
+        "Graduate in July 2026"
       ]
     },
     {
@@ -193,11 +201,15 @@
 "interests": [
   {
     "name": "AI Safety & Alignment",
-    "keywords": ["Jailbreaking", "Prompt Attacks", "Open-weight Model Security"]
+    "keywords": ["LLM Jailbreaking", "Prompt Attacks", "Open-weight Model Security"]
   },
   {
-    "name": "LLM Interpretability", 
+    "name": "LLM Interpretability",
     "keywords": ["Mechanistic Interpretability", "Causal Tracing"]
+  },
+  {
+    "name": "Effective Altruism",
+    "keywords": ["EA Community", "Conferences", "Philosophical Arguments"]
   }
 ],
   "meta": {

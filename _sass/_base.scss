@@ -285,6 +285,10 @@ ul.task-list input[type="checkbox"] {
 
   .navbar-brand {
     color: var(--global-text-color);
+
+    span.font-weight-bold {
+      color: var(--global-theme-color);
+    }
   }
 
   .navbar-nav .nav-item .nav-link {
@@ -578,6 +582,10 @@ footer.sticky-bottom {
 }
 
 .post-title {
+  span.font-weight-bold {
+    color: var(--global-theme-color);
+  }
+
   mjx-container[jax="CHTML"][display="true"] {
     display: unset;
   }
@@ -771,8 +779,12 @@ footer.sticky-bottom {
         }
 
         > em {
-          border-bottom: 1px solid;
           font-style: normal;
+
+          .author-first-name {
+            color: var(--global-theme-color);
+            font-weight: bold;
+          }
         }
 
         > span.more-authors {
