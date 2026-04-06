@@ -27,5 +27,7 @@ social: true # includes social icons at the bottom of the page
 ---
 Hi there!
 
-I'm Asen, a final-year Master of AI student at the [University of Amsterdam](https://www.uva.nl/en). I'm interested in using technical research to make AI (specifically LLMs) safer and more robust against misuse by malicious actors. I've published two papers so far, one on the competition of mechanisms in LLMs and one on deepfake detection, with a third paper exploring a novel jailbreaking method on the way.
+I'm Asen, a final-year Master of AI student at the [University of Amsterdam](https://www.uva.nl/en). In August, I will be starting a PhD in LLM security at [INSAIT](https://insait.ai/) under the supervision of [Dr. Yuxia Wang](https://yuxiaw.github.io/).
+
+I'm currently interested in making open-weight LLMs robust against adversarial attacks, with a particular focus on prefillings. I've published two papers so far, one on the competition of mechanisms in LLMs and one on deepfake detection, with a third paper on prefilling attacks under review.
 

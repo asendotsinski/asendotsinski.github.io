@@ -1,6 +1,18 @@
 ---
 ---
 
+@article{dotsinski2026sockpuppetting,
+  selected={true},
+  title={Sockpuppetting: Jailbreaking LLMs Without Optimization Through Output Prefix Injection}, 
+  author={Asen Dotsinski and Panagiotis Eustratiadis},
+  year={2026},
+  abstract={As open-weight large language models (LLMs) increase in capabilities, safeguarding them against malicious prompts and understanding possible attack vectors becomes ever more important. While automated jailbreaking methods like GCG [Zou et al., 2023] remain effective, they often require substantial computational resources and specific expertise. We introduce "sockpuppetting'', a simple method for jailbreaking open-weight LLMs by inserting an acceptance sequence (e.g., "Sure, here is how to...'') at the start of a model's output and allowing it to complete the response. Requiring only a single line of code and no optimization, sockpuppetting achieves up to 80% higher attack success rate (ASR) than GCG on Qwen3-8B in per-prompt comparisons. We also explore a hybrid approach that optimizes the adversarial suffix within the assistant message block rather than the user prompt, increasing ASR by 64% over GCG on Llama-3.1-8B in a prompt-agnostic setting. The results establish sockpuppetting as an effective low-cost attack accessible to unsophisticated adversaries, highlighting the need for defences against output-prefix injection in open-weight models.},
+  doi={https://doi.org/10.48550/arXiv.2601.13359},
+  code={https://gitlab.com/asendotsinski/sockpuppetting},
+  journal={arXiv preprint},
+  preview={sockpuppetting_preview.png}
+}
+
 @inproceedings{thakur2025clare,
   title={CLaRE: CLIP with Latent Reconstruction Errors for Generated Face Detection},
   author={Thakur, Udit and Khan, Mohammad Hafeez and Changlani, Meher and Dotsinski, Asen and Mahadevan, Aswin Krishna and Kechagias, Ioannis and Najdenkoska, Ivona},
@@ -27,16 +39,4 @@
   poster={comp_mech_poster.pdf},
   preview={comp_mech_preview.png},
   year={2025}
-}
-
-@article{dotsinski2026sockpuppetting,
-  selected={true},
-  title={Sockpuppetting: Jailbreaking LLMs Without Optimization Through Output Prefix Injection}, 
-  author={Asen Dotsinski and Panagiotis Eustratiadis},
-  year={2026},
-  abstract={As open-weight large language models (LLMs) increase in capabilities, safeguarding them against malicious prompts and understanding possible attack vectors becomes ever more important. While automated jailbreaking methods like GCG [Zou et al., 2023] remain effective, they often require substantial computational resources and specific expertise. We introduce "sockpuppetting'', a simple method for jailbreaking open-weight LLMs by inserting an acceptance sequence (e.g., "Sure, here is how to...'') at the start of a model's output and allowing it to complete the response. Requiring only a single line of code and no optimization, sockpuppetting achieves up to 80% higher attack success rate (ASR) than GCG on Qwen3-8B in per-prompt comparisons. We also explore a hybrid approach that optimizes the adversarial suffix within the assistant message block rather than the user prompt, increasing ASR by 64% over GCG on Llama-3.1-8B in a prompt-agnostic setting. The results establish sockpuppetting as an effective low-cost attack accessible to unsophisticated adversaries, highlighting the need for defences against output-prefix injection in open-weight models.},
-  doi={https://doi.org/10.48550/arXiv.2601.13359},
-  code={https://gitlab.com/asendotsinski/sockpuppetting},
-  journal={arXiv preprint},
-  preview={sockpuppetting_preview.png}
 }
