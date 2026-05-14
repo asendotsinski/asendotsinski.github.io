@@ -30,11 +30,11 @@
       "summary": "Research on deepfake detection using CLIP-based methods (co-author)."
     },
     {
-      "name": "Sockpuppetting: Jailbreaking LLMs Without Optimization Through Output Prefix Injection",
+      "name": "Sockpuppetting: Jailbreaking LLMs by Combining Prefilling with Optimization",
       "publisher": "arXiv preprint",
       "releaseDate": "2026",
       "url": "https://arxiv.org/abs/2601.13359",
-      "summary": "A jailbreaking method achieving up to 97% success rate with one line of code (main author)."
+      "summary": "A jailbreaking method achieving up to 99% success rate with no optimization, and improving on optimizational baselines with a hybrid approach by up to 64% (main author)."
     }
   ],
     "education": [
