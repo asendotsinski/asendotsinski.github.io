@@ -64,9 +64,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://asendotsinski.github.io/assets/img/prof_pic.jpg # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -144,11 +144,11 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+  news:
+    defaults:
+      layout: post
+    output: true
   # books:
-  #   output: true
-  # news:
-  #   defaults:
-  #     layout: post
   #   output: true
   # projects:
   #   output: true
@@ -173,16 +173,6 @@ kramdown:
 # Includes & excludes
 include: ["_pages", "_scripts"]
 exclude:
-  - _pages/repositories.md
-  - _pages/profiles.md
-  - _pages/teaching.md
-  - _pages/dropdown.md
-  - _pages/books.md
-  - _posts/
-  - _pages/blog.md
-  - _news/
-  - _projects/
-  - _pages/projects.md
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -194,13 +184,10 @@ exclude:
   - Gemfile.lock
   - INSTALL.md
   - LICENSE
-  - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
-  - readme_preview/
   - vendor
 keep_files:
   - CNAME

@@ -207,6 +207,81 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+// Social icons shown in the profile column (under the photo)
+.profile-social {
+  margin-top: 0.6rem;
+
+  .contact-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+    font-size: 1.7rem;
+    line-height: 1;
+
+    a {
+      i::before {
+        color: var(--global-text-color);
+        transition-property: all 0.2s ease-in-out;
+      }
+
+      &:hover {
+        text-decoration: none;
+
+        i::before {
+          color: var(--global-theme-color);
+        }
+      }
+
+      img,
+      svg {
+        width: 1.6rem;
+        height: 1.6rem;
+      }
+
+      svg image {
+        width: 1.6rem;
+        height: 1.6rem;
+      }
+    }
+  }
+
+  .contact-note {
+    margin-top: 0.4rem;
+    font-size: 0.75rem;
+    text-align: center;
+  }
+}
+
+// About-page section headings that link to their full page (news, publications).
+// Small muted chevron at rest, accent colour + nudge on hover.
+// Swap the "›" below for "→" if you'd rather have a small arrow.
+h2 > a.section-link {
+  color: inherit;
+  transition: color 0.2s ease-in-out;
+
+  &::after {
+    content: "\00a0>"; // nbsp keeps the chevron attached to the heading
+    display: inline-block;
+    font-size: 0.7em;
+    color: color-mix(in srgb, currentColor 45%, transparent);
+    transition:
+      transform 0.2s ease-in-out,
+      color 0.2s ease-in-out;
+  }
+
+  &:hover {
+    color: var(--global-theme-color);
+    text-decoration: none;
+
+    &::after {
+      color: var(--global-theme-color);
+      transform: translateX(2px);
+    }
+  }
+}
+
 .profile.float-right {
   margin-left: 1rem;
 }

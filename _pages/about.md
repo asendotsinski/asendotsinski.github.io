@@ -15,10 +15,10 @@ profile:
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
-# announcements:
-#   enabled: true # includes a list of news items
-#   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-#   limit: 5 # leave blank to include all the news in the `_news` folder
+announcements:
+  enabled: true # includes a list of news items
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 3 # leave blank to include all the news in the `_news` folder
 
 # latest_posts:
 #   enabled: true
@@ -27,7 +27,9 @@ social: true # includes social icons at the bottom of the page
 ---
 Hi there!
 
-I'm Asen, a final-year Master of AI student at the [University of Amsterdam](https://www.uva.nl/en). In August, I will be starting a PhD in LLM security at [INSAIT](https://insait.ai/) under the supervision of [Dr. Yuxia Wang](https://yuxiaw.github.io/).
+I'm Asen, a PhD student in LLM security at [INSAIT](https://insait.ai/) under the supervision of [Dr. Yuxia Wang](https://yuxiaw.github.io/).
 
-I'm currently interested in making open-weight LLMs robust against adversarial attacks, with a particular focus on prefillings. I've published two papers so far, one on the competition of mechanisms in LLMs and one on deepfake detection, with a third paper on prefilling attacks under review.
+I'm currently interested in safeguarding open-weight LLMs against malicious use. I've mostly been exploring adversarial robustness against jailbreaking, but I'm curious to learn more about tamper resistance and unlearning.
+
+If you would like to collaborate, feel free to drop me an email!
 

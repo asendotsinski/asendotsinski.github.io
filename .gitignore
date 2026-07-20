@@ -11,3 +11,18 @@ assets/libs/
 node_modules/
 vendor
 .idea
+
+# Local build output / editor / agent tooling (not part of the site)
+_site_test
+.vscode/
+.claude/
+.mcp.json
+.ripgreprc
+
+# Stray shell/env dotfiles that can land in the working tree
+.bash_profile
+.bashrc
+.profile
+.zprofile
+.zshrc
+.gitconfig

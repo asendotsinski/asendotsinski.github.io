@@ -1,12 +1,11 @@
 {
   "basics": {
     "name": "Asen Dotsinski",
-    "profession": "AI Researcher & Machine Learning Engineer",
+    "profession": "AI Safety Researcher",
     "image": "",
-    "email": "asendotsinski@protonmail.com",
-    "phone": "+359888870770",
+    "email": "asendotsinski@proton.me",
     "url": "",
-    "summary": "I am a quick learner, ambitious to a fault and I never back down from a challenge. I am looking to use my AI research talent for the good of humanity. I am currently interested in the mechanisms behind LLM jailbreaking and counteracting them to safeguard (open-weight) AI against malicious use.",
+    "summary": "I'm an AI researcher driven to keep increasingly capable AI safe as it proliferates, focusing on the adversarial robustness of open-weight LLMs against jailbreaking. I'm a PhD student in LLM security at INSAIT and first author of published work on jailbreaking and LLM interpretability.",
     "location": {
       "city": "Sofia",
       "countryCode": "BG",
@@ -14,13 +13,13 @@
     },
     "profiles": []
   },
-    "publications": [
+  "publications": [
     {
-      "name": "On the Generalizability of 'Competition of Mechanisms: Tracing How Language Models Handle Facts and Counterfactuals'",
-      "publisher": "TMLR",
-      "releaseDate": "2025",
-      "url": "https://arxiv.org/abs/2506.22977",
-      "summary": "A reproducibility study in LLM interpretability (main author)."
+      "name": "Sockpuppetting: Jailbreaking LLMs by Combining Prefilling with Optimization",
+      "publisher": "Second Workshop on Agents in the Wild: Safety, Security, and Beyond",
+      "releaseDate": "2026",
+      "url": "https://arxiv.org/abs/2601.13359",
+      "summary": "A jailbreaking method achieving up to 99% success rate with no optimization, and improving on optimization-based baselines with a hybrid approach by up to 64% (first author)."
     },
     {
       "name": "CLaRE: CLIP with Latent Reconstruction Errors for Generated Face Detection",
@@ -30,14 +29,25 @@
       "summary": "Research on deepfake detection using CLIP-based methods (co-author)."
     },
     {
-      "name": "Sockpuppetting: Jailbreaking LLMs by Combining Prefilling with Optimization",
-      "publisher": "arXiv preprint",
-      "releaseDate": "2026",
-      "url": "https://arxiv.org/abs/2601.13359",
-      "summary": "A jailbreaking method achieving up to 99% success rate with no optimization, and improving on optimizational baselines with a hybrid approach by up to 64% (main author)."
+      "name": "On the Generalizability of 'Competition of Mechanisms: Tracing How Language Models Handle Facts and Counterfactuals'",
+      "publisher": "TMLR",
+      "releaseDate": "2025",
+      "url": "https://arxiv.org/abs/2506.22977",
+      "summary": "A reproducibility study in LLM interpretability (first author)."
     }
   ],
-    "education": [
+  "education": [
+    {
+      "institution": "INSAIT",
+      "location": "Sofia, BG",
+      "area": "LLM Security",
+      "studyType": "PhD in AI",
+      "startDate": "2026",
+      "endDate": "",
+      "courses": [
+        "Supervised by Dr. Yuxia Wang"
+      ]
+    },
     {
       "institution": "University of Amsterdam",
       "location": "Amsterdam, NL",
@@ -45,10 +55,8 @@
       "studyType": "Master of Science",
       "startDate": "2024",
       "endDate": "2026",
-      "score": "8.9/10",
       "courses": [
-        "GPA 8.9/10",
-        "Graduate in July 2026"
+        "GPA 8.9/10"
       ]
     },
     {
@@ -58,18 +66,9 @@
       "studyType": "Bachelor of Engineering",
       "startDate": "2021",
       "endDate": "2024",
-      "score": "9.2/10",
       "courses": [
         "GPA 9.2/10"
       ]
-    },
-    {
-      "institution": "High School of Mathematics \"Doctor Petar Beron\"",
-      "location": "Varna, Bulgaria",
-      "area": "Mathematics & Programming",
-      "studyType": "High School Diploma",
-      "startDate": "2016",
-      "endDate": "2021"
     }
   ],
   "work": [
@@ -78,7 +77,7 @@
       "position": "Freelance Machine Learning Engineer",
       "location": "Remote",
       "startDate": "2024",
-      "endDate": "",
+      "endDate": "2026",
       "summary": "ML engineering and optimization work using C++, Python, PyTorch, CUDA, and Docker.",
       "highlights": [
         "Implemented a swarm optimization algorithm entirely on CUDA, achieving a 17x speedup over previous solutions while halving the lines of code used",
@@ -137,6 +136,50 @@
       ]
     }
   ],
+  "skills": [
+    {
+      "name": "Research",
+      "icon": "fa-solid fa-flask",
+      "keywords": [
+        "Adversarial Robustness",
+        "LLM Jailbreaking",
+        "Mechanistic Interpretability",
+        "Deepfake Detection"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "icon": "fa-solid fa-brain",
+      "keywords": [
+        "PyTorch",
+        "CUDA",
+        "Transformers & LLMs",
+        "MLOps"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "icon": "fa-solid fa-code",
+      "keywords": [
+        "Python",
+        "C++",
+        "C",
+        "Ruby",
+        "Bash"
+      ]
+    },
+    {
+      "name": "Engineering & Tooling",
+      "icon": "fa-solid fa-gears",
+      "keywords": [
+        "Docker",
+        "Git & CI/CD",
+        "Linux",
+        "PostgreSQL",
+        "FreeRTOS"
+      ]
+    }
+  ],
   "volunteer": [
     {
       "organization": "Debate club \"Odessos\"",
@@ -174,13 +217,13 @@
     },
     {
       "title": "7 Certificates of Excellence in National Informatics Competitions",
-      "date": "2013:2019",
+      "date": "2013–2019",
       "awarder": "Various National Competitions",
       "summary": "Multiple top-3 placements in national informatics competitions"
     },
     {
       "title": "10+ Top-3 Placements in National Debate Competitions",
-      "date": "2018:2021",
+      "date": "2018–2021",
       "awarder": "Various Debate Organizations"
     }
   ],
@@ -198,23 +241,21 @@
       "fluency": "B1"
     }
   ],
-"interests": [
-  {
-    "name": "AI Safety & Alignment",
-    "keywords": ["LLM Jailbreaking", "Prompt Attacks", "Open-weight Model Security"]
-  },
-  {
-    "name": "LLM Interpretability",
-    "keywords": ["Mechanistic Interpretability", "Causal Tracing"]
-  },
-  {
-    "name": "Effective Altruism",
-    "keywords": ["EA Community", "Conferences", "Philosophical Arguments"]
-  }
-],
+  "interests": [
+    {
+      "name": "Effective Altruism",
+      "icon": "fa-solid fa-hand-holding-heart",
+      "keywords": ["EA Community", "Conferences", "Philosophical Arguments"]
+    },
+    {
+      "name": "Tabletop Games",
+      "icon": "fa-solid fa-dice",
+      "keywords": ["Gloomhaven", "Netrunner", "Flesh and Blood"]
+    }
+  ],
   "meta": {
     "version": "v1.0.0",
     "canonical": "https://github.com/jsonresume/resume-schema",
-    "lastModified": "2025"
+    "lastModified": "2026"
   }
 }
