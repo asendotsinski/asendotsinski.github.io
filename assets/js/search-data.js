@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-publications",
+  },{id: "nav-news",
+          title: "news",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
+        },{id: "nav-publications",
           title: "publications",
           description: "",
           section: "Navigation",
@@ -23,7 +30,22 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{
+        },{id: "news-our-reproducibility-study-on-the-competition-of-mechanisms-in-llms-was-accepted-at-tmlr-and-mlrc-paper",
+          title: 'Our reproducibility study on the competition of mechanisms in LLMs was accepted at...',
+          description: "",
+          section: "News",},{id: "news-clare-our-work-on-generated-face-detection-was-accepted-at-the-1st-acm-workshop-on-deepfake-deception-and-disinformation-security-paper",
+          title: 'CLaRE, our work on generated-face detection, was accepted at the 1st ACM Workshop...',
+          description: "",
+          section: "News",},{id: "news-i-had-a-great-time-at-eurips-this-past-week-where-i-presented-my-reproducibility-study-on-competitions-of-mechanisms-in-llms-paper",
+          title: 'I had a great time at EurIPS this past week, where I presented...',
+          description: "",
+          section: "News",},{id: "news-sockpuppetting-my-work-on-jailbreaking-llms-via-prefilling-and-optimization-was-accepted-at-icml-s-second-workshop-on-agents-in-the-wild-safety-security-and-beyond-thank-you-to-anyone-who-stopped-by-my-poster-paper",
+          title: 'Sockpuppetting, my work on jailbreaking LLMs via prefilling and optimization, was accepted at...',
+          description: "",
+          section: "News",},{id: "news-excited-to-be-joining-insait-to-start-my-phd-on-llm-security-advised-by-dr-yuxia-wang-sparkles",
+          title: 'Excited to be joining INSAIT to start my PhD on LLM security, advised...',
+          description: "",
+          section: "News",},{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
